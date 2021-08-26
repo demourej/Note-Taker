@@ -1,46 +1,29 @@
+# NOTE TAKER
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## About the project
 
-[License: MIT](https://opensource.org/licenses/MIT)
+This application called Note Taker that can be used to write and save notes. This application uses an Express.js back end and saves and retrieves note data from a JSON file.
 
-## Table of Contents
-  
-[Title](#Title)  
-[Description](#Description)  
-[Installation](#Installation)  
-[Usage](#Usage)  
-[Contribution](#Contribution)  
-[Test](#Test)  
-[Questions](#Questions)    
-[License](#License)    
-# Title
-Note Taker
+The application’s front end has already been created. The challenge was to build the back end, connect the two, and then deploy the entire application to Heroku.
 
-# Description
-Application called Note Taker that can be used to write and save notes. This application uses an Express.js back end and saves and retrieves note data from a JSON file.
+## Usage
 
-# Installation
-"npm start" for running the application.
+Just start the application, then navigate to http://localhost:8080 in your browser and then click on Get Started button to start writing notes. 
 
-# Usage
-After the Note Taker app is open, it is presented a landing page with a link to a notes page, once it is clicked on the link to the notes page, it is presented a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column. When it is enter a new note title and the note’s text, then a Save icon appears in the navigation at the top of the page. When it is clicked on the Save icon, the new note entered is saved and appears in the left-hand column with the other existing notes. Also when it is clicked on an existing note in the list in the left-hand column then that note appears in the right-hand column. Clicking on the Write icon in the navigation at the top of the page, empty fields are presented to enter a new note title and the note’s text in the right-hand column.
+Capture your Note title and content and then click on save button to save and start capturing one new note. You can also delete and query existing notes.
 
-# Contribution
-It is necessary to know the basics of expressjs(routing), fs, JSON, node packages. You can contribute reporting bugs, suggesting enhacements, pull requests. Best practices for class/id naming conventions, indentation, quality comments, etc.
+## Built With
 
-# Test
-For local testing use: "git clone git@github.com:jorgeatcabo/note-taker.git" and “npm install”. For testing on a deployment URL use: https://pure-thicket-39065.herokuapp.com/
+* [JavaScript](https://www.w3schools.com/js/default.asp) - Used for JavaScript References
+* [HTML](https://www.w3schools.com/html/default.asp) - Used for HTML References
+* [Bootstrap4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) - Used for build polished and responsive design
+* [Express.js](https://expressjs.com/) - Used for building application back-end.
 
-# Questions
-https://github.com/jorgeatcabo
+## Author
 
-san_lucas2005@yahoo.com
+Adolfo de Moure Jasso
 
-# License
-MIT
+## Acknowledgments
 
-
-# Screenshots
-![](./public/assets/images/note-taker-1.PNG)
-
-![](./public/assets/images/note-taker-2.PNG)
+* Trilogy Education Services
+* ITESM
